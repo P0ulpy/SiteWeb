@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil</title>
+    <title>En construction</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+
+    <link rel="stylesheet" href="css/countdown.css">
+    <link rel="stylesheet" href="css/tower.css">
+
 </head>
+
 <body>
-    
+    <h1>Mon site arrive !</h1>
+    <div id="clockdiv">
+        <!-- eheh mon horloge elle marche Grochonou -->
+        <div>
+            <span class="days"></span>
+            <div class="smalltext">Jours</div>
+        </div>
+        <div>
+            <span class="hours"></span>
+            <div class="smalltext">Heurs</div>
+        </div>
+        <div>
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span class="seconds"></span>
+            <div class="smalltext">Secondes</div>
+        </div>
+    </div>
+
+    <div id="container">
+        <h2>En attendant un petit jeu pour vous faire patienter</h2>
+
+        <div id="game"></div>
+        <div id="score"></div>
+        <div id="instructions">Click (or press the spacebar) to place the block</div>
+        <div class="game-over">
+            <h2>Game Over</h2>
+            <p>You did great, you're the best.</p>
+            <p>Click or spacebar to start again</p>
+        </div>
+        <div class="game-ready">
+            <div id="start-button">Start</div>
+            <div></div>
+        </div>
+    </div>
 </body>
+<footer>
+    <script src="js/countdown.js"></script>
+    <script src="js/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="js/tower.js"></script>
+</footer>
 </html>
