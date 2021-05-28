@@ -37,4 +37,4 @@ function initializeClock(id, endtime) {
     const intervalID = setInterval(updateClock, 1000);
 }
 
-initializeClock('clockdiv', new Date(2021, 4, 30, 0, 0, 0, 0));
+initializeClock('clockdiv', new Date(2021, 5, 10, 0, 0, 0, 0));
