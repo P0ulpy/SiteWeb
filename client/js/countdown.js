@@ -29,12 +29,12 @@ function initializeClock(id, endtime) {
         secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
         if (t.total <= 0) {
-            clearInterval(timeinterval);
+            clearInterval(intervalID);
         }
     }
 
     updateClock();
-    const timeinterval = setInterval(updateClock, 1000);
+    const intervalID = setInterval(updateClock, 1000);
 }
 
-initializeClock('clockdiv', new Date(2021, 4, 25, 0, 0, 0, 0));
+initializeClock('clockdiv', new Date(2021, 4, 30, 0, 0, 0, 0));
