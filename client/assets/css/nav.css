@@ -1,0 +1,50 @@
+#navigation-container 
+{
+    display: block;
+    position: fixed;
+    z-index: 99;
+
+    width: 100%;
+    height: fit-content;
+
+    transition: all ease 0.5s;
+
+    padding: 1.5rem;
+    background-color: transparent;
+}
+
+#navigation-container.body-mode {
+    padding: 0rem;
+    background-color: rgba(var(--bs-dark-rgb), 1);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.nav-link:visited {
+    color: rgba(255, 255, 255, .5)
+}
+
+#home-button {
+    cursor: pointer;
+    transition: all ease .15s;
+
+    color: white;
+    text-decoration: none;
+    font-size: calc(1.3rem + .6vw);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#home-button:hover {
+    color: rgba(255, 255, 255, .5)
+}
+#home-button:visited {
+    color: rgba(255, 255, 255, .5)
+}
+
+/* GLITCH EFFECT */

@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+header {
+    height: 40rem;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color:white;
+}
+
+.cool-title-container 
+{
+    font-family: "Fjalla One", sans-serif;
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 3vw + 2rem, 3rem);
+    
+    line-height: 47px;
+    letter-spacing: 2px;
+
+    width: fit-content;
+}
+
+.cool-title {
+    width: fit-content;
+}
+
+.cool-title span {
+    transform: skew(-10deg);
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
+
+.cool-title:nth-child(1) {
+    color: rgb(255, 155, 71);
+}
+
+.cool-title:nth-child(2) {
+    color: rgb(46, 83, 183);
+}
+
+.social-link
+{
+    color: white;
+    font-size: clamp(.7rem, 3vw + .7rem, 1.5rem);
+    animation: all ease 0.5s;
+}
+
+.social-link .bi-github:hover {
+    color: rgb(102, 102, 102);
+}
+
+.social-link .bi-twitter:hover {
+    color: rgb(29, 155, 240);
+}
+
+.social-link .bi-linkedin:hover {
+    color: rgb(10, 102, 194);
+}
+
+.social-link .bi-envelope-fill:hover {
+    color: rgb(102, 102, 102);
+}

@@ -1,0 +1,9 @@
+@import "nav.css";
+@import "header.css";
+@import "content.css";
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
